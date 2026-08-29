@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "All-Aboard",
+      "hasCanvas": false,
+      "bodyTextLen": 3020,
+      "bodyTextHash": "facda9b83551a183b9d6dd253f279e88b0677a4d4e6e6aaa777a8f86c4aa7db1",
+      "bodyTextPrefix": "All-Aboard module·Synthetic demo data. No live employee, HRIS, o",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "All-Aboard",
+      "hasCanvas": false,
+      "bodyTextLen": 2690,
+      "bodyTextHash": "21adebab48b6b8941bb80d0b6e783e81da33a87a99f446c4d02dc9c47b3e8498",
+      "bodyTextPrefix": "All-Aboard module·Synthetic demo data. No live employee, HRIS, o",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

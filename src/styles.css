@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Outfit", "Source Sans 3", system-ui, sans-serif;
+
+  --color-navy: #1b4f72;
+  --color-navy-deep: #143a56;
+  --color-navy-soft: #e8f1f8;
+  --color-blue: #2b78c5;
+  --color-teal: #0f766e;
+  --color-teal-soft: #ecfdf3;
+  --color-ink: #122033;
+  --color-muted: #5c6b7a;
+  --color-line: #d5e0eb;
+  --color-paper: #f3f6f9;
+  --color-card: #ffffff;
+  --color-amber: #b45309;
+  --color-amber-soft: #fff7ed;
+  --color-danger: #b91c1c;
+  --color-danger-soft: #fef2f2;
+
+  --color-teams: #5b5fc7;
+  --color-teams-deep: #2b2b3c;
+  --color-teams-rail: #1f1f23;
+  --color-workday: #0875e1;
+  --color-workday-deep: #16325c;
+  --color-sap: #0a6ed1;
+  --color-sap-deep: #354a5f;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+
+  --shadow-border:
+    0px 0px 0px 1px rgba(18, 32, 51, 0.06),
+    0px 1px 2px -1px rgba(18, 32, 51, 0.06),
+    0px 8px 24px -8px rgba(27, 79, 114, 0.1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
